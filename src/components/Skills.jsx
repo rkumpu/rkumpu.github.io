@@ -12,19 +12,20 @@ export default function Skills() {
                 Skills &amp; Technologies
                 </h1>
                 <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
-                Here are the programming tools and skills I have learned over the past 5 years.
+                {/*Here are the programming tools and skills I have learned over the past 5 years.*/}
+                These are the programming technologies I use to create fast, stable and beautiful websites.
                 </p>
             </div>
             <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
                 {skills.map((skill) => (
-                <div key={skill} className="p-2 sm:w-1/2 w-full">
-                    <div className="bg-gray-800 rounded flex p-4 h-full items-center">
-                    <FontAwesomeIcon icon={faCircleCheck} className="text-green-400 w-6 h-6 flex-shrink-0 mr-4" />
-                    <span className="title-font font-medium text-white">
-                        {skill}
-                    </span>
+                    <div key={skill} className="p-2 sm:w-1/2 w-full">
+                        <div className="bg-gray-800 rounded flex p-4 h-full items-center">
+                        <FontAwesomeIcon icon={faCircleCheck} className="text-green-400 w-6 h-6 flex-shrink-0 mr-4" />
+                        <span className="title-font font-medium text-white">
+                            {skill}
+                        </span>
+                        </div>
                     </div>
-                </div>
                 ))}
             </div>
             </div>
