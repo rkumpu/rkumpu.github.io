@@ -14,10 +14,11 @@ export default function About() {
                     </h1>
                     <p className="mb-8 leading-relaxed">
                         I am a freelancing web developer with expertise in front-end programming.
-                        I learned web development at age 12 along with various other programming languages. Programming is what I&apos;m most interested in, and I love creating web apps that stand out.
+                        I learned web development at age 12 along with various other programming languages.
+                        Programming is what I&apos;m most interested in, and I love creating web apps that stand out.
                     </p>
                     <div className="flex justify-center">
-                        <a href="https://twitter.com/rkumpu_" className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">
+                        <a href="https://twitter.com/rkumpu_" className="transition inline-flex text-white border-0 py-2 px-6 focus:outline-none bg-green-500 ease-in-out duration-300 hover:bg-green-600 hover:-translate-y-1 hover:scale-105 rounded text-lg">
                             Work With Me
                         </a>
                         {/*
