@@ -8,8 +8,9 @@ const projects = [
 ];
 
 export const skills = [
-    "HTML, CSS, JavaScript", "Bootstrap", "React", "Vue",
-    "Solid.js", "Next.js / Nuxt.js", "Material UI", "Python"
+    "HTML, CSS, JavaScript", "React, Vue, Solid.js",
+    "Next.js / Nuxt.js", "TailwindCSS", "Bootstrap",
+    "Material UI", "Linux", "Docker"
 ]
 
 export const testimonials = [
